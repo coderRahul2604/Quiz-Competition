@@ -1,0 +1,229 @@
+.addque {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 15%;
+    height: 100vh;
+}
+
+label {
+    font-size: large;
+}
+
+input[type=text],
+input[type=password],
+.addingquetionsdiv input[type=submit],
+select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: #dfd6d6;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #dfd6d6;
+}
+
+.addque button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.addque button:hover {
+    background-color: #45a049;
+}
+
+.floatRightDiv {
+    margin-left: 20%;
+}
+
+.addingquetionsdiv>form {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.addingquetionsdiv>label {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.addingquetionsdiv>input[type="text"],
+.addingquetionsdiv>textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 2%;
+    font-size: xx-large;
+}
+
+.addingquetionsdiv>input[type="radio"] {
+    margin-right: 5px;
+}
+
+.addingquetionsdiv>input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addingquetionsdiv,
+.UserDetailDiv,
+.AddedQueDiv,
+.FeedbackDiv {
+    background-color: #978989;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.addingquetionsdiv::-webkit-scrollbar,
+.UserDetailDiv::-webkit-scrollbar,
+.AddedQueDiv::-webkit-scrollbar,
+.FeedbackDiv::-webkit-scrollbar {
+    width: 10px;
+}
+
+.addingquetionsdiv::-webkit-scrollbar-track,
+.UserDetailDiv::-webkit-scrollbar-track,
+.AddedQueDiv::-webkit-scrollbar-track,
+.FeedbackDiv::-webkit-scrollbar-track {
+    background: #6e6161;
+}
+
+.addingquetionsdiv::-webkit-scrollbar-thumb,
+.UserDetailDiv::-webkit-scrollbar-thumb,
+.AddedQueDiv::-webkit-scrollbar-thumb,
+.FeedbackDiv::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.addingquetionsdiv form {
+    background-color: inherit;
+
+}
+
+.UserDetailDiv h2,
+.AddedQueDiv h2, .ReportsDiv h2, .FeedbackDiv h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.UserDetailDiv table,
+.AddedQueDiv table,
+.ReportsDiv table,
+.FeedbackDiv table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.UserDetailDiv th,
+.UserDetailDiv td,
+.AddedQueDiv th,
+.AddedQueDiv td,
+.ReportsDiv th,
+.ReportsDiv td,
+.FeedbackDiv th,
+.FeedbackDiv td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.UserDetailDiv th,
+.AddedQueDiv th,
+.ReportsDiv th,
+.FeedbackDiv th {
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.UserDetailDiv tr:nth-child(even),
+.AddedQueDiv tr:nth-child(even),
+.ReportsDiv tr:nth-child(even),
+.FeedbackDiv tr:nth-child(even) {
+    background-color: #877777;
+}
+
+.UserDetailDiv tr:nth-child(odd):hover,
+.AddedQueDiv tr:nth-child(odd):hover,
+.ReportsDiv tr:nth-child(odd):hover,
+.FeedbackDiv tr:nth-child(odd):hover {
+    background-color: #9f8989;
+}
+
+.AddedQueDiv tr:hover {
+    background-color: #978989;
+}
+
+.ReportsDiv form {
+    margin-bottom: 20px;
+}
+
+.ReportsDiv input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.ReportsDiv input[type="submit"],
+.ReportsDiv input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ReportsDiv input[type="submit"]:hover,
+.ReportsDiv input[type="button"] {
+    background-color: #45a049;
+}
+
+.alertSuccess {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.alertError {
+    padding: 15px;
+    background-color: #f44336;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.closebtn {
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}

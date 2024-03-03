@@ -1,0 +1,34 @@
+.container {
+    margin-top: 5%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20%;
+    margin-bottom: 10%;
+  }
+  
+  .image-div1 {
+    width: 30%;
+    height: 30vh;
+    background-color: #f1f1f1;
+    clip-path: polygon(100% 0, 100% 38%, 83% 100%, 0 86%, 0 0);
+  }
+  
+  .info-div1 {
+    width: 70%;
+    height: 30vh;
+    background-color: #f1f1f1;
+  }
+  
+  .image-div2 {
+    width: 30%;
+    height: 30vh;
+    background-color: #f1f1f1;
+    clip-path: polygon(22% 7%, 100% 38%, 99% 100%, 0 100%, 0% 38%);
+  }
+  
+  .info-div2 {
+    width: 70%;
+    height: 30vh;
+    background-color: #f1f1f1;
+  }

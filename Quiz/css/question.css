@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cont {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.rules {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ruleCont {
+    margin-bottom: 20px;
+}
+
+.rule ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+
+.rule ol li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cont p {
+    margin-top: 10px;
+}
+
+.cont input[type="radio"] {
+    margin-right: 10px;
+}
+
+.cont input[type="radio"]:checked+label {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.next-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.question{
+    margin-top: 20px;
+}
+
+.result p {
+    margin: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.correctanswer {
+    color: green;
+    font-weight: bold;
+}
+
+.wronganswer {
+    color: red;
+    font-weight: bold;
+}
+
+.alertBox {
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 9999;
+    animation: fadeIn 5s;
+}
+
+.alertBox.success {
+    background-color: #4caf4fdd;
+}
+
+.alertBox.error {
+    background-color: #ff0000dd;
+}
+
+.alertBox.warning {
+    background-color: #ffa600dd;
+}
+
+.closebtn {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
